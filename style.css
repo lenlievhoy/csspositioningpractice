@@ -1,0 +1,71 @@
+
+#box1{
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+
+    position: relative;
+}
+
+#box1circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    font-size: 2rem;
+
+    position: absolute;
+    left: 75px;
+    top: 75px;
+}
+
+#box2{
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+
+    position: sticky;
+    top: 50px;
+}
+
+#header{
+    height: 50px;
+    width: 100%;
+    background-color: red;
+    margin-left: -8px; /*because there is a default 8px margin in the body*/
+    margin-right: -8px;
+
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+
+}
+
+#header > p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#footer{
+    height: 75px;
+    width: 100%;
+    background-color: green;
+    z-index: 1;
+    margin-left: -8px; /*because there is a default 8px margin in the body*/
+    margin-right: -8px;
+
+    position: fixed;
+    bottom: 0px;
+}
+
+#footer > p{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+}
